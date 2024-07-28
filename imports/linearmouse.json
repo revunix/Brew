@@ -1,0 +1,235 @@
+{
+  "schemes" : [
+    {
+      "pointer" : {
+        "speed" : 0.1965,
+        "disableAcceleration" : true,
+        "acceleration" : 0.9
+      },
+      "scrolling" : {
+        "speed" : 0,
+        "acceleration" : 1,
+        "distance" : "auto",
+        "reverse" : {
+          "vertical" : true,
+          "horizontal" : false
+        }
+      },
+      "if" : {
+        "device" : {
+          "productName" : "USB Receiver",
+          "productID" : "0xc52b",
+          "vendorID" : "0x46d",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productName" : "Logitech MX Master 3",
+          "productID" : "0xb023",
+          "category" : "mouse",
+          "serialNumber" : "2F42A5C0F304536B"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : false
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productName" : "ROCCAT Kone XP",
+          "vendorID" : "0x1e7d",
+          "productID" : "0x2c8b"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 21.96
+        }
+      },
+      "buttons" : {
+        "clickDebouncing" : {
+          "timeout" : 0
+        },
+        "universalBackForward" : true,
+        "mappings" : [
+
+        ]
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 1
+      },
+      "buttons" : {
+        "switchPrimaryButtonAndSecondaryButtons" : false,
+        "mappings" : [
+
+        ],
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "productName" : "ROG OMNI RECEIVER",
+          "category" : "mouse",
+          "vendorID" : "0xb05",
+          "serialNumber" : "R2MPGDD12493",
+          "productID" : "0x1ace"
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true
+      },
+      "buttons" : {
+        "mappings" : [
+
+        ],
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "productID" : "0x1ace",
+          "productName" : "ROG OMNI RECEIVER",
+          "vendorID" : "0xb05",
+          "serialNumber" : "R2MPGDD12493\u001f ",
+          "category" : "mouse"
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "R2MPGDD12493∞\u001d",
+          "category" : "mouse",
+          "productID" : "0x1ace",
+          "productName" : "ROG OMNI RECEIVER",
+          "vendorID" : "0xb05"
+        }
+      },
+      "buttons" : {
+        "mappings" : [
+
+        ],
+        "universalBackForward" : true
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "vendorID" : "0xb05",
+          "productID" : "0x1ace",
+          "productName" : "ROG OMNI RECEIVER",
+          "category" : "mouse",
+          "serialNumber" : "R2MPGDD12493Û\u001f"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0x1ace",
+          "serialNumber" : "R2MPGDD12493’\u001e",
+          "category" : "mouse",
+          "vendorID" : "0xb05",
+          "productName" : "ROG OMNI RECEIVER"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "R2MPGDD12493}\u001e",
+          "category" : "mouse",
+          "productName" : "ROG OMNI RECEIVER",
+          "productID" : "0x1ace",
+          "vendorID" : "0xb05"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0x1ace",
+          "productName" : "ROG OMNI RECEIVER",
+          "serialNumber" : "R2MPGDD12493o\u001f",
+          "category" : "mouse",
+          "vendorID" : "0xb05"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "pointer" : {
+        "disableAcceleration" : true,
+        "acceleration" : 1.5
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productName" : "ROG OMNI RECEIVER",
+          "serialNumber" : "R2MPGDD12493\t ",
+          "vendorID" : "0xb05",
+          "productID" : "0x1ace"
+        }
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 1
+        }
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "productID" : "0xc54d",
+          "serialNumber" : "315336693432",
+          "productName" : "USB Receiver",
+          "category" : "mouse"
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0"
+}
